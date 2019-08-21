@@ -57,6 +57,7 @@ class Calculator_class {
     // It also updates the running total property
     // TODO: Student implement the method for multiplication
     multipy(first , second){
+        // NOTE : broken check varaibles
         this.update_current_calculation_result(first * second);
         this.current_calculation_result;
     }
@@ -65,6 +66,7 @@ class Calculator_class {
     // It also updates the running total property
     // TODO: Student implement the method for division
     divide(first, second){
+        // NOTE : broken check varaibles
         this.update_current_calculation_result(first / second);
         this.current_calculation_result;
     }
